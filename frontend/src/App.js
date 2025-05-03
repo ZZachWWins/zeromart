@@ -45,10 +45,10 @@ const App = () => {
       <header className="header">
         <div className="logo">ZeroMart ⚡️</div>
         <nav className="nav">
-          <a href="#" className="nav-link">Home</a>
-          <a href="#" className="nav-link">Shop</a>
-          <a href="#" className="nav-link">About</a>
-          <a href="#" className="nav-link">Contact</a>
+          <button className="nav-link">Home</button>
+          <button className="nav-link">Shop</button>
+          <button className="nav-link">About</button>
+          <button className="nav-link">Contact</button>
         </nav>
       </header>
 
@@ -73,11 +73,12 @@ const App = () => {
       </section>
 
       <footer className="footer">
-        <p>ZeroMart - Powered by <a href="#" className="footer-link">Zero: Focus</a> to zap screen time and obesity.</p>
+        <p>
+          ZeroMart - Powered by <button className="footer-link">Zero: Focus</button> to zap screen time and obesity.
+        </p>
         <p>© 2025 ZeroMart. World domination in progress.</p>
       </footer>
     </div>
   );
 };
-
 export default App;
