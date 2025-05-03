@@ -34,10 +34,26 @@ const App = () => {
   }, []);
 
   const products = [
-    { name: 'Thunder Apples', price: '$2.99/lb', img: 'https://via.placeholder.com/250x150/32cd32/fff?text=Apples' },
-    { name: 'Neon Spinach', price: '$3.49/bunch', img: 'https://via.placeholder.com/250x150/800080/fff?text=Spinach' },
-    { name: 'Golden Bread', price: '$4.99/loaf', img: 'https://via.placeholder.com/250x150/ffd700/fff?text=Bread' },
-    { name: 'Electric Eggs', price: '$5.99/dozen', img: 'https://via.placeholder.com/250x150/32cd32/fff?text=Eggs' },
+    { 
+      name: 'Thunder Apples', 
+      price: '$2.99/lb', 
+      img: 'https://res.cloudinary.com/dmemnt0gg/image/upload/f_auto,q_auto/ripe-apple-royalty-free-image-1659454396.jpg_cfnck5' 
+    },
+    { 
+      name: 'Neon Spinach', 
+      price: '$3.49/bunch', 
+      img: 'https://res.cloudinary.com/dmemnt0gg/image/upload/f_auto,q_auto/spinach-1-600x600_he0pv2' 
+    },
+    { 
+      name: 'Golden Bread', 
+      price: '$4.99/loaf', 
+      img: 'https://res.cloudinary.com/dmemnt0gg/image/upload/f_auto,q_auto/homemade-sandwich-bread_rxnqcr' 
+    },
+    { 
+      name: 'Electric Eggs', 
+      price: '$5.99/dozen', 
+      img: 'https://res.cloudinary.com/dmemnt0gg/image/upload/f_auto,q_auto/Introducing-Eggs_ha5zct' 
+    },
   ];
 
   return (
@@ -81,4 +97,5 @@ const App = () => {
     </div>
   );
 };
+
 export default App;
